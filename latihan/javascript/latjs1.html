@@ -1,0 +1,47 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	alert ("Hello World");
+	document.write("Hallo World<br>");
+	
+	var a=5;
+	var b=10;
+	var c=a+b;
+	
+	alert("Hasil 5+10 adalah :"+c);
+	document.write("Hasil "+a+"+ "+b+" adalah "+c);
+	
+	var name = prompt("Siapa nama mu?");
+	document.write("<br><h2>Hallo "+name+" Selamat Datang!</h2><br>");
+	
+	var a=0;
+	for(a=0;a<=10;a++)
+	{
+		document.write("<font size=40>"+a+"</font><br>");
+	}
+	
+	function tampil(x,y)
+	{
+		var c=x+y;
+		var d=x*y;
+		var e=x/y;
+		var f=x-y;
+		
+		document.write("Saya tampil setelah tombol di tekan!<br>");
+		document.write("Hasil penjumlahan "+c);
+		document.write("<br>Hasil pengurangan "+f);
+		document.write("<br>Hasil perkalian "+d);
+		document.write("<br>Hasil pembagian "+e);
+	}
+</script>
+
+<input type="submit" value="tekan" onClick="tampil(6,10)"/>
+</body>
+</html>

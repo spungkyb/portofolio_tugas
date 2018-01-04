@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script>
+function tampilkan(x,y){
+	var z=x+y;
+	document.write("Hasil perhitungan x + y :"+z);
+}
+function tampil_dom(){
+	//cara beda
+	//document.getElementById("test").innerHTML="Welcome to my life";
+	
+	var psn = document.getElementById("test");
+	psn.innerHTML="Welcome to my life";
+	psn.style.color = "red";
+	psn.style.background="yellow";
+	psn.style.border="1px solid black";
+}
+
+function bekgron(){
+	document.getElementById("in").style.background="yellow";
+}
+</script>
+</head>
+
+<body>
+<button id="tbl" onclick="tampilkan(5,10)">Tekan Aku</button>
+<br />
+<button id="tbl" onclick="tampil_dom()">Tampil</button>
+<h1 id="test">TEST DOM</h1>
+
+<input type="text" id="in" onfocus="bekgron(this)"/>
+</body>
+</html>

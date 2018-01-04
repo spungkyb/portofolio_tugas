@@ -1,0 +1,67 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    height: 400px;
+    width: 90%;
+
+    background: url('bg.png');
+    margin-left: 4%;
+    overflow: hidden;
+}
+
+#heli {
+    position: absolute;
+    background: url('heli.png');
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.pole {
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    background-color: #00695C;
+    right: -50px;
+}
+
+#pole_1 {
+    top: 0;
+}
+
+#pole_2 {
+    bottom: 0;
+}
+
+#score_div {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#restart_btn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #C62828;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.footer{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--Button Go to Top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+<!--Navbar Responsive-->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#profil">Profil</a>
+  <a href="#tugas">Tugas Web</a>
+  <a href="#latihan">Latihan Web</a>
+  <a href="#contactme">Contact Me</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="profil">
+<img src="img/image_avatar.png" alt="Avatar" id="fotoprofil">
+<h1>Seviana Pungky B.</h1>
+<h3>A11.2015.09163</h3>
+</div>
+
+<div id="tugas">
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h2>TUGAS WEB</h2>
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+ <div class="column">
+    <div class="content">
+    <a href="tugas/jual_mobil/login.html">
+      <img src="tugas/sc/tugasjquery.png" alt="Jual Mobil-jquery" style="width:100%">
+      <h3>Jual Mobil-jquery</h3>
+      <p>html,css,jquery,dtbase,js</p>
+    </a>
+    </div>                       
+  </div>
+  <div class="column">
+    <div class="content">
+    <a href="tugas/1_login/login.html">
+      <img src="tugas/sc/login.png" alt="Tampilan Login" style="width:100%">
+      <h3>Tampilan Login</h3>
+      <p>html, css</p>
+    </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a href="tugas/pbw_datadiri2/form01.html">
+      <img src="tugas/sc/biodata.png" alt="Form Biodata" style="width:100%">
+      <h3>Form Biodata</h3>
+      <p>html, css, php, database</p>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <a href="tugas/data_buku/form.html">
+      <img src="tugas/sc/buku.png" alt="Data Buku" style="width:100%">
+      <h3>Pendataan Buku</h3>
+      <p>html, css, php, database</p>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <a href="tugas/HeliFly/index.html" target="blank">
+      <img src="tugas/sc/game_jquery.png" alt="Game Jquery HeliFly" style="width:100%">
+      <h3>Game HeliFly</h3>
+      <p>html, css, jquery, js</p>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <a href="tugas/search_ajax/index.php">
+      <img src="tugas/sc/ajaxsearch.png" alt="Search Ajax" style="width:100%">
+      <h3>Search Ajax</h3>
+      <p>html, js, ajax, database</p>
+    </a>
+    </div>
+  </div>
+   
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</div>
+
+
+
+<div id="latihan">
+  <!-- MAIN (Center website) -->
+<div class="main">
+
+<h2>LATIHAN WEB</h2>
+<hr>
+
+<div id="myBtnContainer">
+  <button class="btn aktif" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('tampilan')"> Tampilan</button>
+  <button class="btn" onclick="filterSelection('javascript')"> Javascript</button>
+  <button class="btn" onclick="filterSelection('input_event_js')"> Input Event Javascript</button>
+  <button class="btn" onclick="filterSelection('onmouse_js')"> On Mouse Javascript</button>
+  <button class="btn" onclick="filterSelection('ajax')"> Ajax</button>
+  <button class="btn" onclick="filterSelection('jquery')"> Jquery</button>
+  <button class="btn" onclick="filterSelection('json')"> JSON</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="rowlat">
+  <div class="columnlat tampilan">
+    <div class="content">
+
+	    <a href="latihan/tampilan/latihan_biodata/biodata.html">
+	      <img src="latihan/sc/tampilan/biodata.png" alt="Biodata" style="width:100%">
+	      <h4>Biodata</h4>
+	      <p>html, css</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat tampilan">
+    <div class="content">
+	    <a href="latihan/tampilan/latihan_shadow/shadow.html">
+	    <img src="latihan/sc/tampilan/shadow.png" alt="Shadow" style="width:100%">
+	      <h4>Shadow</h4>
+	      <p>html, css</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat tampilan">
+    <div class="content">
+	    <a href="latihan/tampilan/latihan_list/latihan-list.html">
+	    <img src="latihan/sc/tampilan/list.png" alt="List" style="width:100%">
+	      <h4>List</h4>
+	      <p>html, css</p>
+	    </a>
+    </div>
+  </div>
+  
+  <div class="columnlat tampilan">
+    <div class="content">
+      <a href="latihan/tampilan/latihan_menu/latihanmenu.html">
+    	<img src="latihan/sc/tampilan/menu.png" alt="Menu" style="width:100%">
+      <h4>Menu NavBar</h4>
+      <p>html, css</p>
+      </a>
+    </div>
+  </div>
+  <div class="columnlat tampilan">
+    <div class="content">
+	    <a href="latihan/tampilan/latihan_homepageku/latihan-tugas.html">
+	    	<img src="latihan/sc/tampilan/homepage.png" alt="Menu" style="width:100%">
+	      <h4>Home Page</h4>
+	      <p>html, css</p>
+	    </a>
+    </div>
+  </div>
+
+  <!--JAVASCRIPT-->
+   <div class="columnlat javascript">
+    <div class="content">
+	    <a href="latihan/javascript/testdom.html">
+	    	<img src="latihan/sc/javascript/testdom.png" alt="Test DOM" style="width:100%">
+	      <h4>Test DOM</h4>
+	      <p>html, css, js</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat javascript">
+    <div class="content">
+	    <a href="latihan/javascript/latjs1.html">
+	    	<img src="latihan/sc/javascript/latjs1.png" alt="Lat JS 1" style="width:100%">
+	      <h4>Lat Javascript 1</h4>
+	      <p>html, css, js</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat javascript">
+    <div class="content">
+	    <a href="latihan/javascript/latjs2.html">
+	    	<img src="latihan/sc/javascript/latjs2.png" alt="Lat JS 2" style="width:100%">
+	      <h4>Lat Javascript 2</h4>
+	      <p>html, css, js</p>
+	    </a>
+    </div>
+  </div>
+  <!--END JAVASCRIPT-->
+
+  <!--JQUERY-->
+  <div class="columnlat jquery">
+    <div class="content">
+	    <a href="latihan/jquery/jquery1.html">
+	    	<img src="latihan/sc/jquery/jquery01.png" alt="Jquery01" style="width:100%">
+	      <h4>JQuery01</h4>
+	      <p>html, jquery</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat jquery">
+    <div class="content">
+	    <a href="latihan/jquery/jquery02.html">
+	    	<img src="latihan/sc/jquery/jquery02.png" alt="Jquery02" style="width:100%">
+	      <h4>JQuery02</h4>
+	      <p>html, jquery</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat jquery">
+    <div class="content">
+	    <a href="latihan/jquery/jquery033.html">
+	    	<img src="latihan/sc/jquery/jquery03.png" alt="JQuery03" style="width:100%">
+	      <h4>JQuery03</h4>
+	      <p>html, css, jquery</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat jquery">
+    <div class="content">
+	    <a href="latihan/jquery/jquery04.html">
+	    	<img src="latihan/sc/jquery/jquery04.png" alt="JQuery04" style="width:100%">
+	      <h4>JQuery04</h4>
+	      <p>html, css, jquery</p>
+	    </a>
+    </div>
+  </div>
+  <!--END JQUERY-->
+    <!--INPUT_EVENT JAVASCRIPT-->
+   <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/dropdownonchange.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>drop down on change</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/inpuontselected.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>input on selected</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/inputonblur.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>input on blur</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/inputonchange.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>input on change</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/inputonfocus.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>input on focus</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/onkeydown.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>on keydown</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/onkeypress.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>input on change</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/onkeyup1.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>on key up 1</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/onkeyup2.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>on key up 2</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/onsubmit.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>on submit</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat input_event_js">
+    <div class="content">
+	    <a href="latihan/javascript/input_event/resetbutton.html">
+	    	<img src="latihan/sc/javascript/inputevent/input_event_javascript.png" alt="Javascript" style="width:100%">
+	      <h4>reset button</h4>
+	      <p>html, css, javascript</p>
+	    </a>
+    </div>
+  </div>
+  <!--END INPUT EVENT JS-->
+
+  <!--JSON-->
+  <div class="columnlat json">
+    <div class="content">
+	    <a href="latihan/json/json.html">
+	    	<img src="latihan/sc/json.png" alt="Json" style="width:100%">
+	      <h4>Json 1</h4>
+	      <p>html, css, js, json</p>
+	    </a>
+    </div>
+  </div>
+
+  <div class="columnlat json">
+    <div class="content">
+	    <a href="latihan/json/latihan2.html">
+	    	<img src="latihan/sc/json.png" alt="Json" style="width:100%">
+	      <h4>Json 2</h4>
+	      <p>html, css, js, json</p>
+	    </a>
+    </div>
+  </div>
+
+  <!--END JSON-->
+  <!--AJAX-->
+  <div class="columnlat ajax">
+    <div class="content">
+	    <a href="latihan/ajax/ajaxphp.html">
+	    	<img src="latihan/sc/ajax.png" alt="Ajax" style="width:100%">
+	      <h4>Ajax PHP</h4>
+	      <p>html, css, js, json</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat ajax">
+    <div class="content">
+	    <a href="latihan/ajax/latihan_ajax/json01.html">
+	    	<img src="latihan/sc/ajax.png" alt="Json" style="width:100%">
+	      <h4>Convert String Json</h4>
+	      <p>html, css, js, json, php</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat ajax">
+    <div class="content">
+	    <a href="latihan/ajax/latihan_ajax/json02.html">
+	    	<img src="latihan/sc/ajax.png" alt="json" style="width:100%">
+	      <h4>Convert String Json</h4>
+	      <p>html, css, js, json, php</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat json">
+    <div class="content">
+	    <a href="latihan/ajax/latihan_ajax/json2.html">
+	    	<img src="latihan/sc/json.png" alt="json" style="width:100%">
+	      <h4>Store&Retrieve Data</h4>
+	      <p>html, css, js, json, php</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat ajax">
+    <div class="content">
+	    <a href="latihan/ajax/latihan_ajax/json04.html">
+	    	<img src="latihan/sc/ajax.png" alt="json" style="width:100%">
+	      <h4>Store&Retrieve Data</h4>
+	      <p>html, css, js, json, php</p>
+	    </a>
+    </div>
+  </div>
+  <div class="columnlat ajax">
+    <div class="content">
+	    <a href="latihan/ajax/latihan_ajax/json04.html">
+	    	<img src="latihan/sc/ajax.png" alt="json" style="width:100%">
+	      <h4>Get data json php</h4>
+	      <p>html, css, js, json, php</p>
+	    </a>
+    </div>
+  </div>
+
+  <!--END AJAX-->
+
+  <!--ON MOUSE EVENT-->
+  <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse1.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 1</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+  <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse2.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 2</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+  <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse3.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 3</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+  <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse4.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 4</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+   <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse5.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 5</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+   <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse6.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 6</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+   <div class="columnlat onmouse_js">
+    <div class="content">
+      <a href="latihan/javascript/onmouse/onmouse7.html">
+        <img src="latihan/sc/onmouse.png" alt="onmouse js" style="width:100%">
+        <h4>On mouse 7</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+  <!--END ONMOUSE-->
+  <div class="columnlat javascript">
+    <div class="content">
+      <a href="latihan/javascript/DOM_filedTextBackground.html">
+        <img src="latihan/sc/js.png" alt="Test DOM" style="width:100%">
+        <h4>DOM filed text background</h4>
+        <p>html, css, js</p>
+      </a>
+    </div>
+  </div>
+
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+
+<div id="contactme">
+<div class="main">
+
+<h2 align="center">CONTACT ME</h2>
+<hr>
+  <div class="form">
+    <form action="simpan.php" method="post" id="formPesan" onreset="message()">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="xname" name="xnama" placeholder="">
+
+      <label for="lname">Email</label>
+      <input type="email" id="xemail" name="xemail" placeholder="">
+       <label for="pesan">Pesan</label>
+      <input type="text" id="xpesan" name="xpesan" placeholder="">
+    
+      <input type="submit" value="Kirim">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+  
+  </div>
+</div>
+
+<p align="center" class="footer">Develop with &hearts; spungkyb</p>
+
+<script src="script.js"></script>
+</body>
+</html>

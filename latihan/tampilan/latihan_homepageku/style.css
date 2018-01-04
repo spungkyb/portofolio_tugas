@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.box {margin:0px auto;
+      padding:0px;
+	  width:800px;
+	  height:700px;
+	  background-color:#CCCCCC;
+	  border:solid 2px #FF00FF;
+	  border-radius:20px;}
+.judul {background-color:#0033FF;
+     height:150px;
+	 margin:0px auto;
+	 padding:0px;
+	 width:800px;
+	 color:#FFFFFF;
+	 text-align:center;
+	 border-radius:30px 30px 0 0;
+	 }
+.kiri {width:200px;
+       height:400px;
+	   float:left;
+	   text-align:center;
+	   background-color:#00CCFF;
+	   position:absolute;
+	   }
+.konten{width:400px;
+       height:400px;
+       position:absolute;
+	   text-align:center;
+	   background-color:#3333FF;
+	   margin-left:200px;
+	   
+	   }
+.kanan {width:200px;
+       height:400px;
+	   float:right;
+	   text-align:center;
+	   background-color:#00CCFF;
+	   /*z-index: -1;*/
+	   }
+	   
+.pidio {border:2px solid black;
+        border-radius:150px;
+		margin-top:40px;
+		} 
+	   
+		
+/*css pada menu*/
+.menu{
+		background-color:#00FFFF;
+		height:40px;
+		width:800px;
+		text-align:center;
+	}
+	ul{
+		margin:0px;
+		padding:0px; 
+	}
+	ul li{
+		list-style:none;
+		width:100px;
+		float:left;
+		font-size:20px;
+		line-height:40px;
+		text-align:center;
+		font-family:Geneva, Arial, Helvetica, sans-serif;
+
+		
+	}
+	ul li ul li{
+			z-index:1;
+		position:relative;	}
+	ul ul{
+		display:none;
+	}
+	ul li:hover ul{
+		display:block;
+
+	}
+	ul ul li{
+		background-color:#CC66FF;
+		border-radius:30px 0px 30px 0px;
+		
+	}
+	a{
+		text-decoration:none;
+	}
+	a:hover{
+		background-color:#FFFFFF;
+		border-radius:30px 0px 30px 0px;
+		display:block;
+	}
